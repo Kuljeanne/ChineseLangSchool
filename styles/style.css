@@ -52,6 +52,10 @@
   list-style-type: none;
 }
 
+.menu-link:hover {
+  color: #febdab;
+}
+
 .menu-link {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -152,7 +156,8 @@
 /*section contact-us*/
 .contact-us {
   background-image: url(../img/lighter.png);
-  background-size: 1400px;
+  background-color: rgb(255, 231, 235);
+  background-size: 1500px;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 100px;
@@ -188,8 +193,48 @@
   font-size: 24px;
 }
 
+.contact-us_link {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  display: block;
+  border-radius: 20px;
+  background-image: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.contact-us_link:hover {
+  box-shadow: 0 0 5px 5px #FEBDAB;
+}
+
+.contact-us_link:active {
+  box-shadow: inset 0 0 5px 3px rgb(219, 115, 86);
+}
+
 /* стили к footer*/
-footer {
+.page-footer {
   background-color: #000000;
-  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #EAF7FE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adress_footer {
+  display: flex;
+  align-items: center;
+}
+
+.logo_footer {
+  width: 50px;
+}
+
+.socials_footer {
+  display: flex;
+  gap: 20px;
+}
+
+.logo_footer:hover {
+  transform: scale(1.08);
 }/*# sourceMappingURL=style.css.map */
