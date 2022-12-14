@@ -89,6 +89,8 @@
 
 .about-us-img {
   width: 550px;
+  box-shadow: 5px 5px 10px 0px #febdab;
+  border-radius: 5px;
 }
 
 .about-us-title {
@@ -104,12 +106,18 @@
 
 /*section studying*/
 .studying {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.studying-title {
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 20px;
 }
 
 .studying-wrapper {
@@ -118,9 +126,27 @@
 }
 
 .studying-option {
-  width: 260px;
+  width: 290px;
+  padding: 10px;
+  box-sizing: border-box;
   background-color: rgba(253, 253, 255, 0.52);
   border-radius: 20px;
+}
+
+.studiing-option-title {
+  text-shadow: 1px 1px #febdab;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.studying-option-text {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
 }
 
 /*section contact-us*/
