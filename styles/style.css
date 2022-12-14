@@ -151,11 +151,41 @@
 
 /*section contact-us*/
 .contact-us {
-  background-image: url(../img/down_wind.png);
-  background-color: #ffffff;
-  height: 500px;
+  background-image: url(../img/lighter.png);
+  background-size: 1400px;
   background-repeat: no-repeat;
   background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts,
+.leave-contacts {
+  background-color: rgba(250, 103, 31, 0.4);
+  width: 400px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  gap: 15px;
+}
+
+.leave-contacts {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vk-box {
+  display: flex;
+  gap: 5px;
+}
+
+.contacts-title {
+  font-size: 24px;
 }
 
 /* стили к footer*/
