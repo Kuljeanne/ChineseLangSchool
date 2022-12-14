@@ -1,0 +1,149 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+/* стили к header*/
+.page-header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+
+}
+
+.box-logo {
+
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #ffffff;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.logo-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    color: #ffffff;
+}
+
+.menu-list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.menu-list-link {
+    list-style-type: none;
+}
+
+.menu-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* стили к main*/
+
+.main-pic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../img/main_logo.png), $orange;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+/*section about us*/
+.about-us {
+    
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.about-us-wrapper {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-us-img {
+    width: 550px
+}
+
+.about-us-title {
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.about-us-text{
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+}
+
+/*section studying*/
+.studying{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $orange-gradient;
+
+}
+.studying-wrapper{
+    display: flex;
+    gap: 20px
+}
+.studying-option{
+    width: 260px;
+    background-color: $light-background;
+    border-radius: 20px;
+}
+
+
+
+/*section contact-us*/
+.contact-us {
+    background-image: url(../img/down_wind.png);
+    background-color: #ffffff;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* стили к footer*/
+
+footer {
+    background-color: #000000;
+    height: 80px;
+}
