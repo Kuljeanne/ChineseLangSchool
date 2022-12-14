@@ -55,6 +55,10 @@
     list-style-type: none;
 }
 
+.menu-link:hover {
+    color: #febdab;
+}
+
 .menu-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -160,7 +164,8 @@
 /*section contact-us*/
 .contact-us {
     background-image: url(../img/lighter.png);
-    background-size: 1400px;
+    background-color: rgb(255, 231, 235);
+    background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 100px;
@@ -177,14 +182,17 @@
     display: flex;
     flex-direction: column;
 }
-.contacts{
+
+.contacts {
     gap: 15px;
 }
+
 .leave-contacts {
     align-items: center;
     justify-content: space-around;
 }
-.vk-box{
+
+.vk-box {
     display: flex;
     gap: 5px;
 }
@@ -193,9 +201,48 @@
     font-size: 24px;
 }
 
+.contact-us_link {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    display: block;
+    border-radius: 20px;
+    background-image: $orange-gradient;
+}
+
+.contact-us_link:hover {
+    box-shadow: 0 0 5px 5px #FEBDAB;
+}
+.contact-us_link:active {
+    box-shadow: inset 0 0 5px 3px rgb(219, 115, 86);
+}
+
 /* стили к footer*/
 
-footer {
+.page-footer {
     background-color: #000000;
-    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #EAF7FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adress_footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 50px;
+}
+
+.socials_footer {
+    display: flex;
+    gap: 20px
+}
+
+.logo_footer:hover {
+    transform: scale(1.08);
 }

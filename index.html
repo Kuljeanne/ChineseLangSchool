@@ -22,9 +22,9 @@
         </div>
         <nav class="menu">
             <ul class="menu-list">
-                <li class="menu-list-link"><a class="menu-link" href="#">О нас</a></li>
-                <li class="menu-list-link"><a class="menu-link" href="#">Обучение</a></li>
-                <li class="menu-list-link"><a class="menu-link" href="#">Контакты</a></li>
+                <li class="menu-list-link"><a class="menu-link" href="#about-us">О нас</a></li>
+                <li class="menu-list-link"><a class="menu-link" href="#studying">Обучение</a></li>
+                <li class="menu-list-link"><a class="menu-link" href="#contact-us">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
         <section class="main-pic center">
 
         </section>
-        <section class="about-us center">
+        <section class="about-us center" id="about-us">
             <div class="about-us-wrapper">
                 <img class="about-us-img" src="img/map_china.jpg" alt="Китай">
 
@@ -50,7 +50,7 @@
                 </p>
             </div>
         </section>
-        <section class="studying center">
+        <section class="studying center" id="studying">
             <h2 class="studying-title">Обучение</h2>
             <div class="studying-wrapper">
                 <div class="studying-option">
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-us center">
+        <section class="contact-us center" id="contact-us">
             <div class="contacts">
                 <h3 class="contacts-title">Наши контакты:</h3>
                 <div class="telephone-number">
@@ -96,16 +96,29 @@
             <div class="leave-contacts">
                 <h3 class="contacts-title">Ждем Вас на пробном занятии</h3>
                 <p>Свяжитесь с нами напрямую или Оставьте свои контактные данные для связи с Вами !</p>
-                <a href="#">Оставить контакты</a>
+                <a class="contact-us_link"
+                    href="https://docs.google.com/forms/d/1ct2L5soPpL7MqW5BUzgQa04DIK-REDrIxOn-eq95Suc/viewform?edit_requested=true">Оставить
+                    контакты</a>
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="center">
+    <footer>
+        <div class="page-footer center">
             <div class="box-logo">
                 <img class="logo" src="img/dragon_logo.svg" alt="лого">
                 <h2 class="logo-title">Небесный дракон</h2>
             </div>
+            <div class="socials_footer">
+                <a class="telephone-number-link_footer" href="tel:+79176737754"><img class="logo_footer"
+                        src="./img/telegram_logo.svg" alt="Telegram"></a>
+                <a class="telephone-number-link_footer" href="tel:+79176773314"><img class="logo_footer"
+                        src="./img/Whatsapp_icon.svg" alt="WhatsApp"></a>
+                <a class="group-vk_footer" href="https://vk.com/nebesnydragon"><img class="logo_footer"
+                        src="./img/vk-logo.svg" alt="vkontakte"></a>
+            </div>
+            <p class="adress_footer">г. Чебоксары, ул.
+                Ярмарочная, д. 17</p>
+            <p class="year">&copy; 2022</p>
         </div>
 
     </footer>
