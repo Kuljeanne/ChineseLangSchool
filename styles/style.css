@@ -6,8 +6,8 @@
 }
 
 .center {
-  padding-left: calc(50% - 580px);
-  padding-right: calc(50% - 580px);
+  padding-left: calc(50% - 610px);
+  padding-right: calc(50% - 610px);
 }
 
 /* стили к header*/
@@ -58,8 +58,8 @@
 
 .menu-link {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -87,7 +87,6 @@
   width: 550px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -103,9 +102,9 @@
 }
 
 .about-us-text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 120%;
-  text-align: center;
+  text-align: left;
 }
 
 /*section studying*/
@@ -130,7 +129,7 @@
 }
 
 .studying-option {
-  width: 290px;
+  width: 370px;
   padding: 10px;
   box-sizing: border-box;
   background-color: rgba(253, 253, 255, 0.52);
@@ -138,13 +137,14 @@
 }
 
 .studiing-option-title {
+  font-size: 26px;
   text-shadow: 1px 1px #febdab;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .studying-option-text {
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -159,7 +159,7 @@
   background-color: rgb(255, 231, 235);
   background-size: 1500px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center -125px;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
@@ -168,6 +168,7 @@
 
 .contacts,
 .leave-contacts {
+  margin-top: 130px;
   background-color: rgba(250, 103, 31, 0.4);
   width: 400px;
   padding: 15px;
